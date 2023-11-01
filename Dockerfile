@@ -12,7 +12,7 @@ WORKDIR /usr/src/app
 
 
 COPY package.json /usr/src/app
-COPY yarn.lock /usr/src/app
+COPY package-lock.json /usr/src/app
 
 # Production use node instead of root
 # USER node
